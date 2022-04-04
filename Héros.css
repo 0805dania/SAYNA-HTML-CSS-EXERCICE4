@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'home';
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+
+/* GLOBAL CSS */
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* tête de page */
+
+.head {
+    background: #114c92;
+}
+
+nav {
+    display: flex;
+    min-height: 18vl;
+    align-items: center;
+    width: 90%;
+    padding: 1vh;
+    margin-left: 20vh;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-right: 20vh;
+    padding-left: 50vh;
+}
+
+nav img {
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh;
+}
+
+/* corps de page */
+
+#main {
+    color: #fff;
+    background-color: #114c92;
+}
+
+.principal h1 {
+    padding-left: 20vh;
+    padding-top: 30vh;
+    font-family: "home";
+    font-size: 50px;
+}
+
+.principal h6 {
+    padding-left: 20vh;
+    font-size: 20px;
+}
+
+.principal {
+    background: url("./img19.png");
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    position: top;
+    padding-bottom: 20vh;
+}
+
+.vidéo {
+    background-color: #114c92; 
+}
+
+.titre {
+    padding: 10vh;
+}
+
+.textvid {
+    display: flex;
+}
+
+.texte {
+    padding-left: 10vh;
+    padding-bottom: 10vh;
+    text-align: justify;
+    
+}
+
+.vidéo2 {
+    width: 300%;
+    height: 500%;
+    padding-left: 5vh;
+}
+
+.principal2 {
+    background: url("./img20.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: bottom;
+    padding-bottom: 30vh;
+}
+
+.principal2 h1 {
+    padding-top: 20vh;
+    padding-left: 30vh;
+    font-family: "home";
+}
+
+.principal2 h5 {
+    padding-left: 30vh;
+    font-size: 17px;
+}
+
+.longtxt {
+    background-color: #114c92;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.gauch {
+    text-align: justify;
+    width: 80vh;
+    margin-right: 10vh;
+}
+
+.droit {
+    text-align: justify;
+    width: 80vh;
+}
+
+.avecimg {
+    background-color: #114c92;
+    padding: 13vh;
+    display: flex;
+}
+
+.avecimg h1 {
+    font-family: "home";
+}
+
+.img1 h1 {
+    padding-bottom: 10px;
+}
+
+.img1 h3 {
+    padding-bottom: 10vh;
+}
+
+.img2 {
+    display: flex;
+    padding-top: 30vh;
+    padding-right: 20vh;
+}
+
+.img2 img {
+    padding-right: 5vh;
+    padding-top: 10vh;
+}
+
+.texte2 {
+    text-align: justify;
+    width: 60vh;
+}
+
+.texte2 h1 {
+    padding-left: 5vh;
+}
+
+.img3 {
+    display: flex;
+    padding-left: 13vh;
+}
+
+.contexte {
+    align-items: justify;
+    width: 80vh;
+}
+
+.contexte h1 {
+    font-family: "home";
+}
+
+.img4 {
+    padding-left: 10vh;
+}
+
+.mj {
+    display: flex;
+}
+
+.mj2 {
+    padding-left: 5vh;
+}
+
+.gs {
+    padding-left: 18vh;
+}
+
+
+.deuxcases {
+    display: flex;
+    background-color: #b11313;
+}
+
+.photos {
+    align-items: center;
+    padding-left: 10vh;
+    padding-top: 15vh;
+}
+
+.photos h1 {
+    padding: 2vh;
+    font-family: "home";
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+}
+
+.textphot {
+    align-items: center;
+}
+
+.gauche{
+    display: flex;
+}
+
+.mot {
+    text-align: justify;
+    width: 35vh;
+    padding-top: 30vh;
+    padding-right: 10vh;
+}
+
+.photo27 {
+    padding-top: 10vh;
+}
+
+.photo28 {
+    padding-top: 10vh;
+}
+
+.photo29 {
+    padding-top: 10vh;
+}
+
+.photo30 {
+    padding: 10px;
+}
+
+.photo31 {
+    padding: 10px;
+    padding-top: 7vh;
+}
+
+
+
+
+.riche {
+    align-items: justify;
+    width: 60vh;
+    text-align: left;
+    padding: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-left: 100vh;
+    background-color: #025ac596;
+}
+
+.riche h1 {
+    text-align: center;
+}
+
+.riche h5 {
+    text-align: right;
+}
+
+.inferieur {
+    background: url("./img33.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: bottom;
+}
+
+
+/* pied de page */
+
+#footer {
+    color: #fff;
+ }
+ 
+ .pied {
+     background-color: black;
+ }
+ 
+ .logo img {
+     background-color: #114c92;
+     border-radius: 50%;
+     margin-bottom: 20px;
+ }
+ 
+ .parti-haut {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .list1 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+ }
+ 
+ .list2 ul {
+     display: flex;
+     align-items: center;
+     list-style: none;
+     text-decoration: none;
+     padding: 20px;
+ }
+ 
+ div.list1 li {
+     padding: 20px;
+ }
+ 
+ div.list2 li {
+     padding: 20px;
+ }
+ 
+ .imgbas {
+     text-align: center;
+     align-items: center;
+     padding: 5vh;
+     display: flex;
+ }
+ 
+ .parti-bas {
+     text-align: center;
+     padding-bottom: 10px;
+ }
+ 
+ .parti-haut select {
+     padding-left: 10px;
+     padding-right: 60px;
+     margin: 40px;
+     border: none;
+     background-color: #114c92;
+     color: #fff;
+     border-radius: 10px;
+ }

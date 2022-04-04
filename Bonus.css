@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'home';
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+
+/* GLOBAL CSS */
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* tête de page */
+
+.head {
+    background: #b11313;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    min-height: 18vl;
+    align-items: center;
+    width: 90%;
+    padding: 1vh;
+    margin-left: 20vh;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-right: 20vh;
+    padding-left: 50vh;
+}
+
+nav img {
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh;
+}
+
+/* corps de page */
+#main {
+    color: #fff;
+}
+
+
+.principal {
+    background: url("./img35.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: center;
+    padding-bottom: 19vh;
+}
+
+.principal h1 {
+    font-family: "home";
+    font-size: 80px;
+    padding-top: 70vh;
+    padding-left: 20vh;
+}
+
+.principal h5 {
+    padding-left: 20vh;
+    font-size: 30px;
+}
+
+
+/* pied de page */
+
+#footer {
+    color: #fff;
+ }
+ 
+ .pied {
+     background-color: black;
+ }
+ 
+ .logo img {
+     background-color: #b11313;
+     border-radius: 50%;
+     margin-bottom: 20px;
+ }
+ 
+ .parti-haut {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .list1 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+ }
+ 
+ .list2 ul {
+     display: flex;
+     align-items: center;
+     list-style: none;
+     text-decoration: none;
+     padding: 20px;
+ }
+ 
+ div.list1 li {
+     padding: 20px;
+ }
+ 
+ div.list2 li {
+     padding: 20px;
+ }
+ 
+ .imgbas {
+     text-align: center;
+     align-items: center;
+     padding: 5vh;
+     display: flex;
+ }
+ 
+ .parti-bas {
+     text-align: center;
+     padding-bottom: 10px;
+ }
+ 
+ .parti-haut select {
+     padding-left: 10px;
+     padding-right: 60px;
+     margin: 40px;
+     border: none;
+     background-color: #b11313;
+     color: #fff;
+     border-radius: 10px;
+ }

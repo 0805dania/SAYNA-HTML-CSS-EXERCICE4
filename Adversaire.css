@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'home';
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+
+/* GLOBAL CSS */
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* tête de page */
+
+.head {
+    background: #f1c530;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    min-height: 18vl;
+    align-items: center;
+    width: 90%;
+    padding: 1vh;
+    margin-left: 20vh;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-right: 20vh;
+    padding-left: 50vh;
+}
+
+nav img {
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh;
+}
+
+/* corps de page */
+
+#main {
+    color: #fff;
+}
+
+.titr {
+    background: url("./img7.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.titr h1,h5 {
+    padding-left: 30vh;;
+}
+
+.titr h1 {
+    padding-top: 50vh;
+    font-family: "home";
+    font-size: 80px;
+}
+
+.principal {
+    background-color: #f1c530;
+    color: black;
+    padding-bottom: 30vh;
+}
+
+.premierligne {
+    display: flex;
+    padding-top: 5vh;
+    padding-left: 10vh;
+}
+
+.deuxiemligne {
+    display: flex;
+    padding-left: 10vh;
+}
+
+.troisiemligne {
+    display: flex;
+    padding-left:10vh;
+}
+
+.quatriemligne {
+    display: flex;
+    margin-left: 40vh;
+}
+
+.textes h1 {
+    padding-bottom: 3vh;
+}
+
+.textes {
+    border: 10px solid black;
+    border-top: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-items: justify;
+    width: 37vh;
+    height: 50vh;
+}
+
+.colonne1 {
+    align-items: justify;
+    width: 20vh;
+    padding-right: 30vh;
+    padding-left: 20vh;
+}
+
+.colonne2 {
+    height: 80vh;
+    align-items: justify;
+    width: 20vh;
+    padding-right: 30vh;
+}
+
+.colonne3 {
+    height: 80vh;
+    align-items: justify;
+    width: 20vh;
+}
+
+.principal h1 {
+    text-align: center;
+}
+
+
+
+
+/* pied de page */
+
+#footer {
+    color: #fff;
+ }
+ 
+ .pied {
+     background-color: black;
+ }
+ 
+ .logo img {
+     background-color: #f1c530;
+     border-radius: 50%;
+     margin-bottom: 20px;
+ }
+ 
+ .parti-haut {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .list1 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+ }
+ 
+ .list2 ul {
+     display: flex;
+     align-items: center;
+     list-style: none;
+     text-decoration: none;
+     padding: 20px;
+ }
+ 
+ div.list1 li {
+     padding: 20px;
+ }
+ 
+ div.list2 li {
+     padding: 20px;
+ }
+ 
+ .imgbas {
+     text-align: center;
+     align-items: center;
+     padding: 5vh;
+     display: flex;
+ }
+ 
+ .parti-bas {
+     text-align: center;
+     padding-bottom: 10px;
+ }
+ 
+ .parti-haut select {
+     padding-left: 10px;
+     padding-right: 60px;
+     margin: 40px;
+     border: none;
+     background-color: #f1c530;
+     color: #fff;
+     border-radius: 10px;
+ }

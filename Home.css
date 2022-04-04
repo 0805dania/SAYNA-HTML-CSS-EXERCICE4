@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'home';
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+/* GLOBAL CSS */
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* tête de page */
+
+.head {
+    background: #b11313;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    min-height: 18vl;
+    align-items: center;
+    width: 90%;
+    padding: 1vh;
+    margin-left: 20vh;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-right: 20vh;
+    padding-left: 50vh;
+}
+
+nav img {
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh;
+}
+
+
+/* corps de page */
+#main {
+    color: #fff;
+    background-color: #b11313;
+}
+
+.superieur {
+    padding-left: 15vh;
+    padding-bottom: 15vh;
+}
+
+.superieur h1 {
+    font-family: 'home';
+    font-size: 96px;
+    padding-top: 40vh;
+    padding-bottom: 15vh;
+}
+
+.superieur h4 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.haut {
+    background: url("./img1.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: center;
+}
+
+.bouton {
+    justify-content: space-around;
+}
+
+.superieur button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    color: #b11313;
+}
+
+.superieur button2 {
+    padding: 10px;
+    background-color: none;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+
+
+
+.inferieur {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #b11313;
+    padding-left: 15vh;
+
+}
+.inferieur h3 {
+    font-family: "home";
+    font-size: 30px;
+}
+
+.photo {
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    display: flex;
+}
+.gauche {
+    border: none;
+    margin: 5vh;
+    align-items: justify;
+}
+
+.milieu {
+    border: none;
+    margin: 5vh;
+    align-items: justify;
+}
+
+.droite {
+    border: none;
+    margin: 5vh;
+    align-items: justify;
+}
+
+.gauche button {
+    padding: 10px;
+    margin:20px;
+    border: none;
+    background-color: #fff;
+    color: #b11313;
+    border-radius: 10px;
+}
+ .droite button {
+    padding: 10px;
+    margin:20px;
+    border: none;
+    background-color: #fff;
+    color: #b11313;
+    border-radius: 10px;
+ }
+
+ .milieu button {
+    padding: 10px;
+    margin:20px;
+    border: none;
+    background-color: #fff;
+    color: #b11313;
+    border-radius: 10px;
+    align-items: center;
+ }
+
+.droite ul {
+    text-align: center;
+}
+
+.photo img {
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.centre {
+    background-color: #114c92;
+    display: flex;
+}
+
+.formulaire {
+    margin-left: 30vh;
+    padding: 20px;
+}
+
+.formulaire h1 {
+    text-align: center;
+    font-family: "home";
+}
+
+.formulaire h6 {
+    font-size: 15px;
+}
+
+.formulaire input {
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 7vh;
+    padding: 5px 90px 5px 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.bout {
+    padding-top: 2vh;
+}
+
+.input {
+    margin-left: 9vh;
+}
+
+.formulaire button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #114c92;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10vh;
+    color: #fff;
+}
+
+.bas {
+    background-color: #b11313;
+    display: flex;
+}
+
+.form {
+    margin-left: 20vh;
+    margin-top: 10vh;
+}
+
+.form h1 {
+    font-family: "home";
+}
+
+.box span {
+    text-decoration: underline;
+}
+
+.bas form input {
+    display: flex;
+    margin-top: 20vh;
+}
+
+.form input {
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 5vh;
+    padding: 5px 80px 10px 10px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #b11313;
+    color: #fff;
+}
+
+.input2 {
+    padding-top: 5vh;
+}
+
+.box {
+    display: flex;
+}
+
+.form button {
+    padding: 10px;
+    margin:20px;
+    border: none;
+    background-color: #fff;
+    color: #b11313;
+    border-radius: 10px;
+}
+
+.img6 {
+    margin-left: 40vh;
+}
+
+/* pied de page */
+
+#footer {
+   color: #fff;
+}
+
+.pied {
+    background-color: black;
+}
+
+.logo img {
+    background-color: #b11313;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.parti-haut {
+    display: flex;
+    justify-content: center;
+}
+
+.list1 ul {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   text-decoration: none;
+   padding: 20px;
+}
+
+.list2 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+}
+
+div.list1 li {
+    padding: 20px;
+}
+
+div.list2 li {
+    padding: 20px;
+}
+
+.imgbas {
+    text-align: center;
+    align-items: center;
+    padding: 5vh;
+    display: flex;
+}
+
+.parti-bas {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.parti-haut select {
+    padding-left: 10px;
+    padding-right: 60px;
+    margin: 40px;
+    border: none;
+    background-color: #b11313;
+    color: #fff;
+    border-radius: 10px;
+}
